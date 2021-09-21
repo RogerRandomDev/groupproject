@@ -20,4 +20,17 @@ header {
   border-style: solid;
   border-color: goldenrod;
   border-width: 4px;
+  background-color: #9f9af0;
+}
+footer {
+  border-style: solid;
+  border-color: goldenrod;
+  border-width: 4px;
+  background-color: #9f9af0;
+}
+p {
+  background-color: #9f9af0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: honeydew;
 }
