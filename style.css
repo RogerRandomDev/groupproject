@@ -1,9 +1,14 @@
 body {
   background-color: honeydew;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
 }
 button {
+  margin: 0 auto;
   background-color: #d0b0ff;
   border-width: 4px;
+  width: min-content;
   border-style: solid;
   border-color: #afaeff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,4 +25,18 @@ header {
   border-style: solid;
   border-color: goldenrod;
   border-width: 4px;
+  background-color: #9f9af0;
+}
+footer {
+  border-style: solid;
+  border-color: goldenrod;
+  border-width: 4px;
+  background-color: #9f9af0;
+  margin-top: auto;
+}
+p {
+  background-color: #9f9af0;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #c9ccc9;
 }
