@@ -1,6 +1,23 @@
 body {
   background-color: honeydew;
 }
-button{
-    background-color: #f0f0ff;
-}E
+button {
+  background-color: #d0b0ff;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #afaeff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover {
+  color: darkgoldenrod;
+}
+header {
+  border-style: solid;
+  border-color: goldenrod;
+  border-width: 4px;
+}
