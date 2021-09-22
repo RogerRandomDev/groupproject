@@ -8,3 +8,12 @@
     'footer footer footer footer'
     'footer footer footer footer';
 }
+.gallery{
+    display: grid;
+    grid-template-areas:
+    'a . b . c . d . e'
+    'f . g . h . i . j'
+    'k . l . m . n . o'
+    'p . q . r . s . t';
+    gap:5% 0px;
+}
