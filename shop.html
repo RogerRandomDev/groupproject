@@ -25,7 +25,24 @@
             </nav>
         </header>
         <div style="grid-area: body;">
-            <button>button</button>
+            <form>
+                <fieldset>
+                    <legend>CREATE YOUR OWN CROWN</legend>
+                    <fieldset>
+                        <legend>Crown Sizes</legend>
+                        <input list="crownSize" id="size" name="Size" required onfocus="this.value='';" onchange="this.blur()">
+                        <datalist id="crownSize">
+                            <option value="The little Prince/Princess"></option>
+                            <option value="Young Royalty"></option>
+                            <option value="Coming of Age"></option>
+                            <option value="The Rulers Crown"></option>
+                        </datalist>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Crown Material</legend>
+                    </fieldset>
+                </fieldset>
+            </form>
         </div>
         <footer style="grid-area: footer;">FOOTER</footer>
     </div>

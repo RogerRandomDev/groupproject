@@ -55,3 +55,7 @@ img {
   align-self: stretch;
   object-fit: scale-down;
 }
+form {
+  margin: 0 auto;
+  width: min-content;
+}
