@@ -17,7 +17,6 @@
     'footer footer footer footer'
     'footer footer footer footer';
 }
-<<<<<<< HEAD
 .gallery{
     display: grid;
     grid-template-areas:
@@ -27,5 +26,3 @@
     'p . q . r . s . t';
     gap:5% 0px;
 }
-=======
->>>>>>> b6b59af6f46b559a63d129580452fd6c75e468c3
