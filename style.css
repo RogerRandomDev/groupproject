@@ -42,3 +42,8 @@ p {
   border-width: 3px;
   border-color: #c9ccc9;
 }
+.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
