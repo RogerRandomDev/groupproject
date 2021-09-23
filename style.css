@@ -1,12 +1,12 @@
 body {
-  background-color: honeydew;
+  background-color: #b070ff;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
 }
 button {
   margin: 0 auto;
-  background-color: #d0b0ff;
+  background-color: #8e4ce0;
   border-width: 4px;
   width: min-content;
   border-style: solid;
@@ -21,26 +21,26 @@ a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a:hover {
-  color: darkgoldenrod;
+  color: #e0de4c;
 }
 header {
   border-style: solid;
-  border-color: goldenrod;
+  border-color: #e0de4c;
   border-width: 4px;
-  background-color: #9f9af0;
+  background-color: #8e4ce0;
 }
 footer {
   border-style: solid;
-  border-color: goldenrod;
+  border-color: #e0de4c;
   border-width: 4px;
-  background-color: #9f9af0;
+  background-color: #8e4ce0;
   margin-top: auto;
 }
 p {
-  background-color: #9f9af0;
+  background-color: #8e4ce0;
   border-style: solid;
   border-width: 3px;
-  border-color: #c9ccc9;
+  border-color: #e0de4c;
 }
 .container {
   position: absolute;
@@ -51,11 +51,15 @@ p {
 img {
   width: 100%;
   max-height: 100%;
+  border-width: 3px;
+  border-color: #e0de4c;
   justify-self: stretch;
   align-self: stretch;
+  border-style: solid;
   object-fit: scale-down;
 }
 form {
+  background-color: #bf9fb5;
   margin: 0 auto;
-  width: min-content;
+  width: 33%;
 }

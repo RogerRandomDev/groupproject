@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./grid.css">
     <title>Doc</title>
+    <script src="./shop.js" type="text/javascript"></script>
 </head>
 <body>
     <div class="container">
@@ -30,7 +31,7 @@
                     <legend>CREATE YOUR OWN CROWN</legend>
                     <fieldset>
                         <legend>Crown Sizes</legend>
-                        <input list="crownSize" id="size" name="Size" required onfocus="this.value='';" onchange="this.blur()">
+                        <input onchange="updateprice()"  list="crownSize" id="size" name="Size" required onfocus="this.value='';">
                         <datalist id="crownSize">
                             <option value="The little Prince/Princess"></option>
                             <option value="Young Royalty"></option>
@@ -40,7 +41,29 @@
                     </fieldset>
                     <fieldset>
                         <legend>Crown Material</legend>
+                        <input onchange="updateprice()"  type="radio" name="Material" value="Cardboard" id="material" required>CardBoard</input>
+                        <input onchange="updateprice()"  type="radio" name="Material" value="Aluminum" id="material" required>Aluminum</input>
+                        <input onchange="updateprice()"  type="radio" name="Material" value="Steel" id="material" required>Steel</input>
+                        <input onchange="updateprice()"  type="radio" name="Material" value="Silver" id="material" required>Silver</input>
+                        <input onchange="updateprice()"  type="radio" name="Material" value="Gold" id="material" required>Gold</input>
                     </fieldset>
+                    <fieldset>
+                        <legend>Gems</legend>
+                        <label for="D">Diamonds(1 carat)</label>
+                        <input onchange="updateprice()"  type="number" max="25" name="D" id="D" min="0"><br>
+                        <label for="E">Emeralds(1-50 carat)</label>
+                        <input onchange="updateprice()"  type="number" max="25" name="E" id="E" min="0"><br>
+                        <label for="S">Saphires(1-15 carat)</label>
+                        <input onchange="updateprice()"  type="number" max="25" name="S" id="S" min="0"><br>
+                        <label for="R">Rubies(1-15 carat)</label>
+                        <input onchange="updateprice()"  onchange="updateprice()" type="number" max="25" name="R" id="R" min="0">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Special Requests(Not listed on price)</legend>
+                        <textarea cols="48" rows="16" style="resize: none;" maxlength="768"></textarea>
+                    </fieldset>
+                    <input type="submit" title="Submit Request">
+                    <p id="pricing">PRICE:</p>
                 </fieldset>
             </form>
         </div>
