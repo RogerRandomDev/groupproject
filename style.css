@@ -3,6 +3,7 @@ body {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
+  background-image: url("./Images/background.png");
 }
 button {
   margin: 0 auto;
@@ -16,7 +17,8 @@ button {
 a {
   margin-left: 6.25%;
   margin-right: 6.25%;
-  color: black;
+  color: greenyellow;
+  font-size: larger;
   text-decoration: none;
   font-family: papyrus;
 }
@@ -29,6 +31,10 @@ header {
   border-width: 4px;
   background-color: #8e4ce0;
   font-family: papyrus;
+  top:0%;
+  position:absolute;
+  width: 50%;
+  margin: 0 auto;
 }
 footer {
   border-style: solid;
@@ -43,12 +49,14 @@ p {
   border-width: 3px;
   border-color: #e0de4c;
   font-family: papyrus;
+  background-image: none;
 }
 li {
   font-family: papyrus;
 }
 div {
   font-family: papyrus;
+  color:#e0de4c;
 }
 .container {
   position: absolute;
@@ -68,7 +76,7 @@ img {
 }
 form {
   background-color: #bf9fb5;
-  margin: 0 auto;
-  width: 33%;
+  margin: 4% auto -4% auto;
+  width: 50%;
   font-family: papyrus;
 }
