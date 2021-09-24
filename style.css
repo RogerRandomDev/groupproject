@@ -3,7 +3,11 @@ body {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
-  background-image: url("./Images/background.png");
+  background-image: url('./Images/background.png');
+}
+label {
+  font-size: larger;
+  font-variant: small-caps;
 }
 button {
   margin: 0 auto;
@@ -31,8 +35,8 @@ header {
   border-width: 4px;
   background-color: #8e4ce0;
   font-family: papyrus;
-  top:0%;
-  position:absolute;
+  top: 0%;
+  position: absolute;
   width: 50%;
   margin: 0 auto;
 }
@@ -56,7 +60,7 @@ li {
 }
 div {
   font-family: papyrus;
-  color:#e0de4c;
+  color: #e0de4c;
 }
 .container {
   position: absolute;
